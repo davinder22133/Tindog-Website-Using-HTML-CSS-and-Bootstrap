@@ -1,0 +1,227 @@
+#title{
+    
+    background-color: #ff4c68;
+}
+
+
+.container{
+    padding-top: 3%;
+   
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 7%;
+}
+
+body{
+    font-family:  "Montserrat";
+}
+
+#title{
+    color: #fff;
+}
+
+
+
+
+
+/*NAV BAR  */
+
+.navbar{
+  /*  background-color: royalblue;*/
+    
+    margin-bottom: 40px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    
+    font-weight: bold;
+}
+
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-family: 1.2rem;
+    
+}
+
+
+
+/* DOWNLOAD BUTTONS */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/*iphone image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+   position: absolute; /*agar yahan par position nhi rakhenge toh feature section upar nhi aayega */
+   
+    right: 30%;
+    
+}
+
+
+
+/* FOR MAIN HEADING WHICH IS ABOVE DOWNLAOD BUTTONS */
+
+.h11{
+   color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+
+/* FEATURE SECTION */
+
+
+#features{
+    padding: 7% 15%;
+    /*z-index: 1;
+    position: fixed; */
+    background-color: white;
+    position: relative; /*absolute normal flow bigad deta hai elements  * isliye relative use kiya */
+   z-index: 1;
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+justify-content: space-between;
+}
+
+.h33{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+/* TESTIMONAL SECTION  */
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.h22{
+    font-family: "Ubuntu";
+    
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* PRESS SECTION */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px; /*20px from top and 20px from left and right and 50px from bottom */
+}
+
+
+.carousel-item{
+     padding:  7% 15%; /* 7% for top and bottom and 15% for left and right*/
+}
+
+#pricing{
+ padding: 100px;   
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+
+
+/* MEDIA QUERIE FOR IPHONE IMAGE*/
+
+@media (max-width:1028px){
+    
+    #title{
+        text-align:center;
+    }
+.title-image{
+   position: static;
+    transform: rotate(0);  /* now image is in state position not rotation*/
+    
+}
+
+} 
+
+
+
+
+
+/* last section */
+
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+   text-align: center;
+}
+
+
+
+.cta_heading{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: white;
+    font size: 3.5rem;
+    
+}
+
+
+
+/*FOOTER SECTION */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+.social_icon{
+    margin: 20px 10px;
+}
